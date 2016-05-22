@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 .counties {
     fill: none;
 }
@@ -18,3 +22,25 @@
 .q7-9 { fill:rgb(8,81,156); }
 .q8-9 { fill:rgb(8,48,107); }
 
+.scroller {
+    background: blue;
+    width: 50%;
+    display:inline-block;
+    overflow-y:auto;
+    font-size:20px;
+    height: 1000px;
+}
+
+/* Selected section at full opacity */
+.scroller .selected {
+    opacity:1;
+}
+
+.vis {
+    background: red;
+    width: 50%;
+    display:inline-block;
+    overflow-y:auto;
+    font-size:20px;
+    height: 1000px;
+}
