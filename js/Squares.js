@@ -17,8 +17,21 @@ var Squares = function() {
     
     var chart = function(selection) {
 
-        selection.each(function() {
+        selection.each(function(data) {
             var div = d3.select(this);
+
+            var svg = div.append("svg")
+                .attr("width", width + "px")
+                .attr("height", height + "px")
+                .append("g");
+
+            var rect = div.selectAll("rect")
+                .data(data)
+                .enter().append("rect")
+                .attr("x", function(d) {d.x})
+                .attr("y", function(d) {d.y})
+            
         })
+
     };
 };
