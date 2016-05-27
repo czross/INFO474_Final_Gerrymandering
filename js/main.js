@@ -13,6 +13,14 @@
          * by users can manipulate this. NOTE** This is purely d3 to show where d3 code
          * goes. There is still no communication between Angular and D3 at this point.
          **/
+        d3.csv("data/Book1.csv", function(root, error) {
+            console.log(root);
+           if(error) throw error;
+
+            var chart = Squares();
+
+            var div = d3.select("#.vis").datum(root).call(chart);
+        }); /*
         var width = 960,
             height = 600;
 
@@ -53,9 +61,9 @@
                 .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
                 .attr("class", "states")
                 .attr("d", path);
-        }
+        } */
 
-        d3.select(self.frameElement).style("height", height + "px");
+        //d3.select(self.frameElement).style("height", height + "px");
 
         /**
          * This is where we can make changes to the visualization rendered by the code
