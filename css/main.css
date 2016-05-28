@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One"); /*Poiret One*/
+@import url("https://fonts.googleapis.com/css?family=Marcellus+SC"); /*Marcellus SC*/
+@import url("https://fonts.googleapis.com/css?family=Megrim"); /*Megrim*/
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch"); /*Cabin Sketch*/
+
+@import url("https://fonts.googleapis.com/css?family=Tulpen+One");
+@import url("https://fonts.googleapis.com/css?family=Eater");
+
 html {
     height: 100%;
 }
@@ -45,8 +53,21 @@ html {
     height: 1000px;
 }
 
-
-h1, p {
-    color: black;
+#story {
+    font-family: "Cabin Sketch";
 }
+
+p {
+    padding-bottom: 600px;
+}
+
+.pack {
+    font-family: "Tulpen One";
+    font-size: 150%;
+}
+
+.crack {
+    font-family: "Eater";
+}
+
 
