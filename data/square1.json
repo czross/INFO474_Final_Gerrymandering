@@ -288,5 +288,12 @@
     "y1" : 205,
     "x2" : 245,
     "y2" : 245
+  },
+  {
+    "name" : "district 1",
+    "types" : "rect",
+    "color" : "orange",
+    "x1" : 280,
+    "y1" : 50
   }
 ]

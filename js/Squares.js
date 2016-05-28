@@ -31,8 +31,6 @@ var Squares = function() {
             };
 
             filterData();
-            console.log(orange);
-            console.log(lines)
 
             var g = svg.append("g")
                 .attr("width", (width - 40) + "px")
@@ -61,9 +59,6 @@ var Squares = function() {
                 .attr("stroke-width", "2px")
                 .attr('stroke', 'black');
 
-            rect.exit().remove();
-            line.exit().remove();
-
             rect.transition()
                 .duration(1500)
                 .delay(function(d,i){return i*50})
@@ -82,6 +77,9 @@ var Squares = function() {
                 .attr('y2', function(d) {return d.y2})
                 .attr("brush-stroke", "2px")
                 .attr('stroke', 'black');
+
+            rect.exit().remove();
+            line.exit().remove();
 
             /** rectGreen.transition()
              .duration(1500)
