@@ -23,7 +23,7 @@ html {
 .q8-9 { fill:rgb(8,48,107); }
 
 .scroller {
-    background: blue;
+    background: none;
     width: 50%;
     display:inline-block;
     overflow-y:auto;
@@ -37,10 +37,11 @@ html {
 }
 
 .vis {
-    background: red;
+    background: none;
     width: 50%;
     display:inline-block;
     overflow-y:auto;
     font-size:20px;
     height: 1000px;
 }
+
