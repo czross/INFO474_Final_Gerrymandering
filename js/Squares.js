@@ -2,19 +2,29 @@
  * Created by Christopher on 5/22/2016.
  */
 
-var Squares = function() {
+var Squares = function(divName) {
     var  height, width, rectSize;
-
     height = 900;
 
     width = 900;
 
     rectSize = 30;
 
+    var svg = d3.select(divName)
+        .append('svg')
+        .attr("height", height)
+        .attr("width", width);
+
+    var g = svg.append("g")
+        .attr("width", (width - 40) + "px")
+        .attr("height", (height - 40) + "px")
+        .attr("transform", "translate(40,0)");
+
+
+
     var chart = function(selection) {
 
         selection.each(function(data) {
-            var svg = d3.select(this);
             var orange, green, lines;
 
             console.log(data)
@@ -32,11 +42,6 @@ var Squares = function() {
 
             filterData();
 
-            var g = svg.append("g")
-                .attr("width", (width - 40) + "px")
-                .attr("height", (height - 40) + "px")
-                .append("g")
-                .attr("transform", "translate(40,0)");
 
             var rect = g.selectAll("rect")
                 .data(orange);
@@ -89,6 +94,10 @@ var Squares = function() {
              .attr('height', rectSize)
              .attr('width', rectSize); **/
         });
+    };
+
+    chart.svg = function() {
+        return svg;
     };
 
     return chart;
