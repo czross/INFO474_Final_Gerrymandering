@@ -1,0 +1,83 @@
+[
+  {
+    "name" : "G1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 80,
+    "x2" : 40,
+    "y2" : 120
+  },
+  {
+    "name" : "G2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 80,
+    "x2" : 80,
+    "y2" : 80
+  },
+  {
+    "name" : "G3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 120,
+    "x2" : 80,
+    "y2" : 120
+  },
+  {
+    "name" : "G4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 80,
+    "y1" : 100,
+    "x2" : 80,
+    "y2" : 120
+  },
+  {
+    "name" : "G5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 60,
+    "y1" : 100,
+    "x2" : 80,
+    "y2" : 100
+  },
+  {
+    "name" : "E1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 80,
+    "x2" : 100,
+    "y2" : 120
+  },
+  {
+    "name" : "E2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 80,
+    "x2" : 140,
+    "y2" : 80
+  },
+  {
+    "name" : "E3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 100,
+    "x2" : 140,
+    "y2" : 100
+  },
+  {
+    "name" : "E4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 120,
+    "x2" : 140,
+    "y2" : 120
+  }
+]

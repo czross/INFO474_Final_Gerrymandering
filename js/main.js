@@ -13,9 +13,15 @@
          * by users can manipulate this. NOTE** This is purely d3 to show where d3 code
          * goes. There is still no communication between Angular and D3 at this point.
          **/
+        
         var chart = Squares(".vis");
 
-        var svg = chart.svg(); 
+        var svg = chart.svg();
+        
+        d3.json("data/Pre-Title.json", function(error, root) {
+            if (error) throw error;
+            svg.datum(root).call(chart);
+        });
 
         /**
          * This is where we can make changes to the visualization rendered by the code
@@ -26,18 +32,30 @@
             /** See console log for number output as you scroll **/
             console.log($scope.step);
             if($scope.step == 0) {
+                d3.json("data/Pre-Title.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 1) {
+                d3.json("data/Title.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 2) {
                 d3.json("data/square1.json", function(error, root) {
                     if (error) throw error;
                     console.log(root);
                     svg.datum(root).call(chart);
                 });
             }
-            if($scope.step == 2) {
+            if($scope.step == 3) {
                 d3.json("data/square2.json", function(error, root) {
                     if (error) throw error;
                     svg.datum(root).call(chart);
                 });
-            }
+            }/**
             if($scope.step == 3) {
                 var width = 960,
                     height = 600;
@@ -78,7 +96,7 @@
                 }
 
                 d3.select(self.frameElement).style("height", height + "px");
-            }
+            } **/
         });
     });
 

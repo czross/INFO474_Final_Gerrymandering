@@ -6,7 +6,7 @@ var Squares = function(divName) {
     var  height, width, rectSize;
     height = 900;
 
-    width = 900;
+    width = 920;
 
     rectSize = 30;
 
