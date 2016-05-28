@@ -1,0 +1,507 @@
+[
+  {
+    "name" : "G1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 80,
+    "x2" : 40,
+    "y2" : 120
+  },
+  {
+    "name" : "G2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 80,
+    "x2" : 80,
+    "y2" : 80
+  },
+  {
+    "name" : "G3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 40,
+    "y1" : 120,
+    "x2" : 80,
+    "y2" : 120
+  },
+  {
+    "name" : "G4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 80,
+    "y1" : 100,
+    "x2" : 80,
+    "y2" : 120
+  },
+  {
+    "name" : "G5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 60,
+    "y1" : 100,
+    "x2" : 80,
+    "y2" : 100
+  },
+  {
+    "name" : "E1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 80,
+    "x2" : 100,
+    "y2" : 120
+  },
+  {
+    "name" : "E2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 80,
+    "x2" : 140,
+    "y2" : 80
+  },
+  {
+    "name" : "E3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 100,
+    "x2" : 140,
+    "y2" : 100
+  },
+  {
+    "name" : "E4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 100,
+    "y1" : 120,
+    "x2" : 140,
+    "y2" : 120
+  },
+  {
+    "name" : "R1.1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 160,
+    "y1" : 80,
+    "x2" : 160,
+    "y2" : 120
+  },
+  {
+    "name" : "R1.2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 160,
+    "y1" : 80,
+    "x2" : 200,
+    "y2" : 80
+  },
+  {
+    "name" : "R1.3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 200,
+    "y1" : 80,
+    "x2" : 200,
+    "y2" : 100
+  },
+  {
+    "name" : "R1.4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 160,
+    "y1" : 100,
+    "x2" : 200,
+    "y2" : 100
+  },
+  {
+    "name" : "R1.5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 160,
+    "y1" : 100,
+    "x2" : 200,
+    "y2" : 120
+  },
+  {
+    "name" : "R2.1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 220,
+    "y1" : 80,
+    "x2" : 220,
+    "y2" : 120
+  },
+  {
+    "name" : "R2.2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 220,
+    "y1" : 80,
+    "x2" : 260,
+    "y2" : 80
+  },
+  {
+    "name" : "R2.3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 260,
+    "y1" : 80,
+    "x2" : 260,
+    "y2" : 100
+  },
+  {
+    "name" : "R2.4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 220,
+    "y1" : 100,
+    "x2" : 260,
+    "y2" : 100
+  },
+  {
+    "name" : "R2.5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 220,
+    "y1" : 100,
+    "x2" : 260,
+    "y2" : 120
+  },
+  {
+    "name" : "Y1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 280,
+    "y1" : 80,
+    "x2" : 300,
+    "y2" : 100
+  },
+  {
+    "name" : "Y2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 300,
+    "y1" : 100,
+    "x2" : 320,
+    "y2" : 80
+  },
+  {
+    "name" : "Y3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 300,
+    "y1" : 100,
+    "x2" : 300,
+    "y2" : 120
+  },
+  {
+    "name" : "M1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 340,
+    "y1" : 80,
+    "x2" : 340,
+    "y2" : 120
+  },
+  {
+    "name" : "M2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 340,
+    "y1" : 80,
+    "x2" : 360,
+    "y2" : 120
+  },
+  {
+    "name" : "M3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 360,
+    "y1" : 120,
+    "x2" : 380,
+    "y2" : 80
+  },
+  {
+    "name" : "M4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 380,
+    "y1" : 80,
+    "x2" : 380,
+    "y2" : 120
+  },
+  {
+    "name" : "A1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 400,
+    "y1" : 120,
+    "x2" : 420,
+    "y2" : 80
+  },
+  {
+    "name" : "A2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 420,
+    "y1" : 80,
+    "x2" : 440,
+    "y2" : 120
+  },
+  {
+    "name" : "A3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 410,
+    "y1" : 100,
+    "x2" : 430,
+    "y2" : 100
+  },
+  {
+    "name" : "N1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 460,
+    "y1" : 80,
+    "x2" : 460,
+    "y2" : 120
+  },
+  {
+    "name" : "N2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 460,
+    "y1" : 80,
+    "x2" : 500,
+    "y2" : 120
+  },
+  {
+    "name" : "N3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 500,
+    "y1" : 120,
+    "x2" : 500,
+    "y2" : 80
+  },
+  {
+    "name" : "D1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 520,
+    "y1" : 80,
+    "x2" : 520,
+    "y2" : 120
+  },
+  {
+    "name" : "D2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 560,
+    "y1" : 90,
+    "x2" : 560,
+    "y2" : 110
+  },
+  {
+    "name" : "D3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 520,
+    "y1" : 80,
+    "x2" : 550,
+    "y2" : 80
+  },
+  {
+    "name" : "D4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 550,
+    "y1" : 80,
+    "x2" : 560,
+    "y2" : 90
+  },
+  {
+    "name" : "D5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 520,
+    "y1" : 120,
+    "x2" : 550,
+    "y2" : 120
+  },
+  {
+    "name" : "D6",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 550,
+    "y1" : 120,
+    "x2" : 560,
+    "y2" : 110
+  },
+  {
+    "name" : "E1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 580,
+    "y1" : 80,
+    "x2" : 580,
+    "y2" : 120
+  },
+  {
+    "name" : "E2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 580,
+    "y1" : 80,
+    "x2" : 620,
+    "y2" : 80
+  },
+  {
+    "name" : "E3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 580,
+    "y1" : 100,
+    "x2" : 620,
+    "y2" : 100
+  },
+  {
+    "name" : "E4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 580,
+    "y1" : 120,
+    "x2" : 620,
+    "y2" : 120
+  },
+  {
+    "name" : "R2.1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 640,
+    "y1" : 80,
+    "x2" : 640,
+    "y2" : 120
+  },
+  {
+    "name" : "R2.2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 640,
+    "y1" : 80,
+    "x2" : 680,
+    "y2" : 80
+  },
+  {
+    "name" : "R2.3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 680,
+    "y1" : 80,
+    "x2" : 680,
+    "y2" : 100
+  },
+  {
+    "name" : "R2.4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 640,
+    "y1" : 100,
+    "x2" : 680,
+    "y2" : 100
+  },
+  {
+    "name" : "R2.5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 640,
+    "y1" : 100,
+    "x2" : 680,
+    "y2" : 120
+  },
+  {
+    "name" : "I",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 700,
+    "y1" : 80,
+    "x2" : 700,
+    "y2" : 120
+  },
+  {
+    "name" : "N1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 720,
+    "y1" : 80,
+    "x2" : 720,
+    "y2" : 120
+  },
+  {
+    "name" : "N2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 720,
+    "y1" : 80,
+    "x2" : 760,
+    "y2" : 120
+  },
+  {
+    "name" : "N3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 760,
+    "y1" : 120,
+    "x2" : 760,
+    "y2" : 80
+  },
+  {
+    "name" : "G1",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 780,
+    "y1" : 80,
+    "x2" : 780,
+    "y2" : 120
+  },
+  {
+    "name" : "G2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 780,
+    "y1" : 80,
+    "x2" : 820,
+    "y2" : 80
+  },
+  {
+    "name" : "G3",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 780,
+    "y1" : 120,
+    "x2" : 820,
+    "y2" : 120
+  },
+  {
+    "name" : "G4",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 820,
+    "y1" : 100,
+    "x2" : 820,
+    "y2" : 120
+  },
+  {
+    "name" : "G5",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 800,
+    "y1" : 100,
+    "x2" : 820,
+    "y2" : 100
+  }
+
+]
