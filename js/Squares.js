@@ -59,6 +59,9 @@ var Squares = function() {
                 .attr("stroke-width", "2px")
                 .attr('stroke', 'black');
 
+            rect.exit().remove();
+            line.exit().remove();
+
             rect.transition()
                 .duration(1500)
                 .delay(function(d,i){return i*50})
@@ -77,17 +80,7 @@ var Squares = function() {
                 .attr('y2', function(d) {return d.y2})
                 .attr("brush-stroke", "2px")
                 .attr('stroke', 'black');
-
-            rect.exit().remove();
-            line.exit().remove();
-
-            /** rectGreen.transition()
-             .duration(1500)
-             .delay(function(d,i){return i*50})
-             .attr('x', function(d){return d.x1})
-             .attr('y', function(d){return d.y1})
-             .attr('height', rectSize)
-             .attr('width', rectSize); **/
+            
         });
     };
 

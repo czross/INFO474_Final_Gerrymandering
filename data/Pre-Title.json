@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "lineTop",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 0,
+    "y1" : 45,
+    "x2" : 960,
+    "y2" : 45
+  },
+  {
+    "name" : "lineBot",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 0,
+    "y1" : 145,
+    "x2" : 960,
+    "y2" : 145
+  }
+]
