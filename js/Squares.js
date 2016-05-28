@@ -14,7 +14,7 @@ var Squares = function() {
     var chart = function(selection) {
 
         selection.each(function(data) {
-            var div = d3.select(this);
+            var svg = d3.select(this);
             var orange, green, lines;
 
             console.log(data)
@@ -34,15 +34,16 @@ var Squares = function() {
             console.log(orange);
             console.log(lines)
 
-            var svg = div.append("svg")
-                .attr("width", width + "px")
-                .attr("height", height + "px")
+            var g = svg.append("g")
+                .attr("width", (width - 40) + "px")
+                .attr("height", (height - 40) + "px")
                 .append("g")
                 .attr("transform", "translate(40,0)");
 
-            var rectOrange = svg.selectAll("rect")
-                .data(orange)
-                .enter().append("rect")
+            var rect = g.selectAll("rect")
+                .data(orange);
+
+            rect.enter().append("rect")
                 .attr("x", function(d) {d.x1})
                 .attr("y", function(d) {d.y1})
                 .attr("height", rectSize + "px")
@@ -50,9 +51,9 @@ var Squares = function() {
                 .attr("fill", function(d) {d.color});
 
 
-            var line = svg.selectAll("line")
-                .data(lines)
-                .enter().append("line")
+            var line = g.selectAll("line")
+                .data(lines);
+            line.enter().append("line")
                 .attr("x1", function(d) {d.x1})
                 .attr("y1", function(d) {d.y1})
                 .attr("x2", function(d) {d.x2})
@@ -60,11 +61,10 @@ var Squares = function() {
                 .attr("stroke-width", "2px")
                 .attr('stroke', 'black');
 
-            /**rectOrange.exit().remove();
-             rectGreen.exit().remove();
-             line.exit().remove(); **/
+            rect.exit().remove();
+            line.exit().remove();
 
-            rectOrange.transition()
+            rect.transition()
                 .duration(1500)
                 .delay(function(d,i){return i*50})
                 .attr('x', function(d){return d.x1})

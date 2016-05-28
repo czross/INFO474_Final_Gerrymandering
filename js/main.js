@@ -13,14 +13,12 @@
          * by users can manipulate this. NOTE** This is purely d3 to show where d3 code
          * goes. There is still no communication between Angular and D3 at this point.
          **/
-        d3.csv("data/Book1.csv", function(root, error) {
-            console.log(root);
-           if(error) throw error;
+        var chart = Squares();
 
-            var chart = Squares();
-
-            var div = d3.select("#.vis").datum(root).call(chart);
-        }); /*
+        var svg = d3.select(".vis").append("svg")
+            .attr("height", 600)
+            .attr("width", 960);
+        /*
         var width = 960,
             height = 600;
 
@@ -73,6 +71,18 @@
         $scope.$watch('step', function() {
             /** See console log for number output as you scroll **/
             console.log($scope.step);
+            if($scope.step == 0) {
+                d3.json("data/square1.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 2) {
+                d3.json("data/square2.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
         });
     });
 
@@ -89,4 +99,6 @@
         };
     });
 })();
+
+
 
