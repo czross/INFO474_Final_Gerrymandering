@@ -45,3 +45,8 @@ html {
     height: 1000px;
 }
 
+
+h1, p {
+    color: black;
+}
+
