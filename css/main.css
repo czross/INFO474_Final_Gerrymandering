@@ -1,5 +1,11 @@
-html {
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+@import url("https://fonts.googleapis.com/css?family=Tulpen+One");
+@import url("https://fonts.googleapis.com/css?family=Eater");
+
+html, body {
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .counties {
@@ -22,13 +28,18 @@ html {
 .q7-9 { fill:rgb(8,81,156); }
 .q8-9 { fill:rgb(8,48,107); }
 
+
 .scroller {
-    background: none;
+    background: #cce5cc;
     width: 50%;
     display:inline-block;
-    overflow-y:auto;
+    overflow-y: auto;
     font-size:20px;
     height: 1000px;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
 }
 
 /* Selected section at full opacity */
@@ -37,16 +48,30 @@ html {
 }
 
 .vis {
-    background: none;
+    background: #cce5cc;
     width: 50%;
     display:inline-block;
-    overflow-y:auto;
+    overflow-y: auto;
     font-size:20px;
     height: 1000px;
 }
 
-
-h1, p {
-    color: black;
+#story {
+    font-family: "Cabin Sketch";
+    padding-left: 5px;
 }
+
+p {
+    padding-bottom: 600px;
+}
+
+.pack {
+    font-family: "Tulpen One";
+    font-size: 150%;
+}
+
+.crack {
+    font-family: "Eater";
+}
+
 
