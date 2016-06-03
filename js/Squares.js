@@ -32,27 +32,12 @@ var Squares = function(divName) {
                 orange = data.filter(function(d) {
                     return d.types == "rect";
                 });
-                green = data.filter(function(d) {
-                    return d.types == "green";
-                });
                 lines = data.filter(function(d) {
                     return d.types == "line";
                 });
             };
 
             filterData();
-
-
-            var rect = g.selectAll("rect")
-                .data(orange);
-
-            rect.enter().append("rect")
-                .attr("x", function(d) {d.x1})
-                .attr("y", function(d) {d.y1})
-                .attr("height", rectSize + "px")
-                .attr("width", rectSize + "px")
-                .attr("fill", function(d) {d.color});
-
 
             var line = g.selectAll("line")
                 .data(lines);
@@ -64,14 +49,17 @@ var Squares = function(divName) {
                 .attr("stroke-width", "2px")
                 .attr('stroke', 'black');
 
-            rect.transition()
-                .duration(1500)
-                .delay(function(d,i){return i*50})
-                .attr('x', function(d){return d.x1})
-                .attr('y', function(d){return d.y1})
-                .attr('height', rectSize)
-                .attr('width', rectSize)
-                .attr('fill', function(d) {return d.color});
+
+            var rect = g.selectAll("rect")
+                .data(orange, function(d) {console.log(d.id);return d.id});
+
+            rect.enter().append("rect")
+                .attr("x", function(d) {d.x1})
+                .attr("y", function(d) {d.y1})
+                .attr("height", rectSize + "px")
+                .attr("width", rectSize + "px")
+                .attr('id', function(d){return d.id})
+                .attr("fill", function(d) {d.color});
 
             line.transition()
                 .duration(1500)
@@ -82,6 +70,17 @@ var Squares = function(divName) {
                 .attr('y2', function(d) {return d.y2})
                 .attr("brush-stroke", "2px")
                 .attr('stroke', 'black');
+
+
+            rect.transition()
+                .duration(1500)
+                .delay(function(d,i){return i*50})
+                .attr('x', function(d){return d.x1})
+                .attr('y', function(d){return d.y1})
+                .attr('height', rectSize)
+                .attr('width', rectSize)
+                .attr('fill', function(d) {console.log(d.color); return d.color});
+
 
             rect.exit().remove();
             line.exit().remove();
