@@ -1,6 +1,7 @@
 [
   {
-    "name" : "lineHor1.2",
+    "id" : 100,
+    "name" : "lineHor1-2",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -8,26 +9,31 @@
     "x2" : 245,
     "y2" : 45
   },
-  { "name" : "square1.1",
+  {
+    "id" : 1,
+    "name" : "square1-1",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 50,
     "y1" : 50
   },
-  { "name" : "square1.2",
+  { "id" : 2,
+    "name" : "square1-2",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 90,
     "y1" : 50
   },
-  { "name" : "square1.3",
+  { "id" : 3,
+    "name" : "square1-3",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 130,
     "y1" : 50
   },
   {
-    "name" : "lineVertA.1" ,
+    "id" : 101,
+    "name" : "lineVertA-1" ,
     "types" : "line",
     "color" : "black",
     "x1" : 165,
@@ -36,7 +42,8 @@
     "y2" : 125
   },
   {
-    "name" : "lineVertA.2" ,
+    "id" : 102,
+    "name" : "lineVertA-2" ,
     "types" : "line",
     "color" : "black",
     "x1" : 85,
@@ -45,7 +52,8 @@
     "y2" : 125
   },
   {
-    "name" : "lineHorA.1" ,
+    "id" : 103,
+    "name" : "lineHorA-1" ,
     "types" : "line",
     "color" : "black",
     "x1" : 85,
@@ -54,7 +62,8 @@
     "y2" : 125
   },
   {
-    "name" : "lineHorA.2" ,
+    "id" : 104,
+    "name" : "lineHorA-2" ,
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -63,7 +72,8 @@
     "y2" : 85
   },
   {
-    "name" : "lineHorB.1" ,
+    "id" : 105,
+    "name" : "lineHorB-1" ,
     "types" : "line",
     "color" : "black",
     "x1" : 165,
@@ -72,7 +82,8 @@
     "y2" : 125
   },
   {
-    "name" : "lineVertB.1" ,
+    "id" : 106,
+    "name" : "lineVertB-1" ,
     "types" : "line",
     "color" : "black",
     "x1" : 205,
@@ -81,7 +92,8 @@
     "y2" : 165
   },
   {
-    "name" : "lineHorB.2" ,
+    "id" : 107,
+    "name" : "lineHorB-2" ,
     "types" : "line",
     "color" : "black",
     "x1" : 205,
@@ -90,7 +102,8 @@
     "y2" : 165
   },
   {
-    "name" : "lineHorC.1" ,
+    "id" : 108,
+    "name" : "lineHorC-1" ,
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -98,20 +111,25 @@
     "x2" : 205,
     "y2" : 165
   },
-  { "name" : "square1.4",
+  {
+    "id" : 4,
+    "name" : "square1-4",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 170,
     "y1" : 50
   },
-  { "name" : "square1.5",
+  {
+    "id" : 5,
+    "name" : "square1-5",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 210,
     "y1" : 50
   },
   {
-    "name" : "lineVert1.1",
+    "id" : 109,
+    "name" : "lineVert1-1",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -120,7 +138,8 @@
     "y2" : 85
   },
   {
-    "name" : "lineVert1.2",
+    "id" : 110,
+    "name" : "lineVert1-2",
     "types" : "line",
     "color" : "black",
     "x1" : 245,
@@ -128,37 +147,49 @@
     "x2" : 245,
     "y2" : 85
   },
-  { "name" : "square2.1",
+  {
+    "id" : 10,
+    "name" : "square2-1",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 50,
     "y1" : 90
   },
-  { "name" : "square2.2",
+  {
+    "id" : 11,
+    "name" : "square2-2",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 90,
     "y1" : 90
   },
-  { "name" : "square2.3",
+  {
+    "id" : 12,
+    "name" : "square2-3",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 130,
     "y1" : 90
   },
-  { "name" : "square2.4",
+  {
+    "id" : 13,
+    "name" : "square2-4",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 170,
     "y1" : 90
   },
-  { "name" : "square2.5",
+  {
+    "id" : 14,
+    "name" : "square2-5",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 210,
     "y1" : 90
   },
-  {  "name" : "lineVert2.1",
+  {
+    "id" : 111,
+    "name" : "lineVert2-1",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -167,7 +198,8 @@
     "y2" : 125
   },
   {
-    "name" : "lineVert2.2",
+    "id" : 112,
+    "name" : "lineVert2-2",
     "types" : "line",
     "color" : "black",
     "x1" : 245,
@@ -175,37 +207,49 @@
     "x2" : 245,
     "y2" : 125
   },
-  { "name" : "square3.1",
+  {
+    "id" : 18,
+    "name" : "square3-1",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 50,
     "y1" : 130
   },
-  { "name" : "square3.2",
+  {
+    "id" : 19,
+    "name" : "square3-2",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 90,
     "y1" : 130
   },
-  { "name" : "square3.3",
+  {
+    "id" : 20,
+    "name" : "square3-3",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 130,
     "y1" : 130
   },
-  { "name" : "square3.4",
+  {
+    "id" : 21,
+    "name" : "square3-4",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 170,
     "y1" : 130
   },
-  { "name" : "square3.5",
+  {
+    "id" : 22,
+    "name" : "square3-5",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 210,
     "y1" : 130
   },
-  {  "name" : "lineVert3.1",
+  {
+    "id" : 120,
+    "name" : "lineVert3-1",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -214,7 +258,8 @@
     "y2" : 165
   },
   {
-    "name" : "lineVert3.2",
+    "id" : 121,
+    "name" : "lineVert3-2",
     "types" : "line",
     "color" : "black",
     "x1" : 245,
@@ -222,37 +267,49 @@
     "x2" : 245,
     "y2" : 165
   },
-  { "name" : "square4.1",
+  {
+    "id" : 26,
+    "name" : "square4-1",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 50,
     "y1" : 170
   },
-  { "name" : "square4.2",
+  {
+    "id" : 27,
+    "name" : "square4-2",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 90,
     "y1" : 170
   },
-  { "name" : "square4.3",
+  {
+    "id" : 28,
+    "name" : "square4-3",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 130,
     "y1" : 170
   },
-  { "name" : "square4.4",
+  {
+    "id" : 29,
+    "name" : "square4-4",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 170,
     "y1" : 170
   },
-  { "name" : "square4.5",
+  {
+    "id" : 30,
+    "name" : "square4-5",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 210,
     "y1" : 170
   },
-  {  "name" : "lineVert4.1",
+  {
+    "id" : 130,
+    "name" : "lineVert4-1",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -261,7 +318,8 @@
     "y2" : 205
   },
   {
-    "name" : "lineVert4.2",
+    "id" : 131,
+    "name" : "lineVert4-2",
     "types" : "line",
     "color" : "black",
     "x1" : 245,
@@ -269,37 +327,49 @@
     "x2" : 245,
     "y2" : 205
   },
-  { "name" : "square5.1",
+  {
+    "id" : 34,
+    "name" : "square5-1",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 50,
     "y1" : 210
   },
-  { "name" : "square5.2",
+  {
+    "id" : 35,
+    "name" : "square5-2",
     "types" : "rect",
-    "color" : "green",
+    "color" : "purple",
     "x1" : 90,
     "y1" : 210
   },
-  { "name" : "square5.3",
+  {
+    "id" : 36,
+    "name" : "square5-3",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 130,
     "y1" : 210
   },
-  { "name" : "square5.4",
+  {
+    "id" : 37,
+    "name" : "square5-4",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 170,
     "y1" : 210
   },
-  { "name" : "square5.5",
+  {
+    "id" : 38,
+    "name" : "square5-5",
     "types" : "rect",
-    "color" : "orange",
+    "color" : "gold",
     "x1" : 210,
     "y1" : 210
   },
-  {  "name" : "lineVert5.1",
+  {
+    "id" : 132,
+    "name" : "lineVert5-1",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -308,7 +378,8 @@
     "y2" : 245
   },
   {
-    "name" : "lineHor5.2",
+    "id" : 133,
+    "name" : "lineHor5-2",
     "types" : "line",
     "color" : "black",
     "x1" : 45,
@@ -317,7 +388,8 @@
     "y2" : 245
   },
   {
-    "name" : "lineHorD.1",
+    "id" : 134,
+    "name" : "lineHorD-1",
     "types" : "line",
     "color" : "black",
     "x1" : 125,
@@ -326,7 +398,8 @@
     "y2" : 205
   },
   {
-    "name" : "lineVertD.1",
+    "id" : 135,
+    "name" : "lineVertD-1",
     "types" : "line",
     "color" : "black",
     "x1" : 125,
@@ -335,7 +408,8 @@
     "y2" : 245
   },
   {
-    "name" : "lineVertD.2",
+    "id" : 136,
+    "name" : "lineVertD-2",
     "types" : "line",
     "color" : "black",
     "x1" : 165,
@@ -344,12 +418,53 @@
     "y2" : 205
   },
   {
-    "name" : "lineVert5.2",
+    "id" : 137,
+    "name" : "lineVert5-2",
     "types" : "line",
     "color" : "black",
     "x1" : 245,
     "y1" : 205,
     "x2" : 245,
     "y2" : 245
+  },
+  {
+    "id" : 42,
+    "name" : "district-1",
+    "types" : "rect",
+    "color" : "purple",
+    "x1" : 400,
+    "y1" : 50
+  },
+  {
+    "id" : 43,
+    "name" : "district-2",
+    "types" : "rect",
+    "color" : "gold",
+    "x1" : 350,
+    "y1" : 90
+  },
+  {
+    "id" : 44,
+    "name" : "district-3",
+    "types" : "rect",
+    "color" : "gold",
+    "x1" : 350,
+    "y1" : 130
+  },
+  {
+    "id" : 45,
+    "name" : "district-4",
+    "types" : "rect",
+    "color" : "purple",
+    "x1" : 400,
+    "y1" : 170
+  },
+  {
+    "id" : 46,
+    "name" : "district-5",
+    "types" : "rect",
+    "color" : "purple",
+    "x1" : 400,
+    "y1" : 210
   }
 ]

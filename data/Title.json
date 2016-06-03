@@ -1,5 +1,6 @@
 [
   {
+    "id" : 1,
     "name" : "G1",
     "types" : "line",
     "color" : "black",
@@ -9,6 +10,7 @@
     "y2" : 120
   },
   {
+    "id" : 2,
     "name" : "G2",
     "types" : "line",
     "color" : "black",
@@ -18,6 +20,7 @@
     "y2" : 80
   },
   {
+    "id" : 3,
     "name" : "G3",
     "types" : "line",
     "color" : "black",
@@ -27,6 +30,7 @@
     "y2" : 120
   },
   {
+    "id" : 4,
     "name" : "G4",
     "types" : "line",
     "color" : "black",
@@ -36,6 +40,7 @@
     "y2" : 120
   },
   {
+    "id" : 5,
     "name" : "G5",
     "types" : "line",
     "color" : "black",
@@ -45,6 +50,7 @@
     "y2" : 100
   },
   {
+    "id" : 6,
     "name" : "E1",
     "types" : "line",
     "color" : "black",
@@ -54,6 +60,7 @@
     "y2" : 120
   },
   {
+    "id" : 7,
     "name" : "E2",
     "types" : "line",
     "color" : "black",
@@ -63,6 +70,7 @@
     "y2" : 80
   },
   {
+    "id" : 8,
     "name" : "E3",
     "types" : "line",
     "color" : "black",
@@ -72,6 +80,7 @@
     "y2" : 100
   },
   {
+    "id" : 9,
     "name" : "E4",
     "types" : "line",
     "color" : "black",
@@ -81,6 +90,7 @@
     "y2" : 120
   },
   {
+    "id" : 10,
     "name" : "R1.1",
     "types" : "line",
     "color" : "black",
@@ -90,6 +100,7 @@
     "y2" : 120
   },
   {
+    "id" : 11,
     "name" : "R1.2",
     "types" : "line",
     "color" : "black",
@@ -99,6 +110,7 @@
     "y2" : 80
   },
   {
+    "id" : 12,
     "name" : "R1.3",
     "types" : "line",
     "color" : "black",
@@ -108,6 +120,7 @@
     "y2" : 100
   },
   {
+    "id" : 13,
     "name" : "R1.4",
     "types" : "line",
     "color" : "black",
@@ -117,6 +130,7 @@
     "y2" : 100
   },
   {
+    "id" : 14,
     "name" : "R1.5",
     "types" : "line",
     "color" : "black",
@@ -126,6 +140,7 @@
     "y2" : 120
   },
   {
+    "id" : 15,
     "name" : "R2.1",
     "types" : "line",
     "color" : "black",
@@ -135,6 +150,7 @@
     "y2" : 120
   },
   {
+    "id" : 16,
     "name" : "R2.2",
     "types" : "line",
     "color" : "black",
@@ -144,6 +160,7 @@
     "y2" : 80
   },
   {
+    "id" : 17,
     "name" : "R2.3",
     "types" : "line",
     "color" : "black",
@@ -153,6 +170,7 @@
     "y2" : 100
   },
   {
+    "id" : 18,
     "name" : "R2.4",
     "types" : "line",
     "color" : "black",
@@ -162,6 +180,7 @@
     "y2" : 100
   },
   {
+    "id" : 19,
     "name" : "R2.5",
     "types" : "line",
     "color" : "black",
@@ -171,6 +190,7 @@
     "y2" : 120
   },
   {
+    "id" : 20,
     "name" : "Y1",
     "types" : "line",
     "color" : "black",
@@ -180,6 +200,7 @@
     "y2" : 100
   },
   {
+    "id" : 21,
     "name" : "Y2",
     "types" : "line",
     "color" : "black",
@@ -189,6 +210,7 @@
     "y2" : 80
   },
   {
+    "id" : 22,
     "name" : "Y3",
     "types" : "line",
     "color" : "black",
@@ -198,6 +220,7 @@
     "y2" : 120
   },
   {
+    "id" : 23,
     "name" : "M1",
     "types" : "line",
     "color" : "black",
@@ -207,6 +230,7 @@
     "y2" : 120
   },
   {
+    "id" : 24,
     "name" : "M2",
     "types" : "line",
     "color" : "black",
@@ -216,6 +240,7 @@
     "y2" : 120
   },
   {
+    "id" : 25,
     "name" : "M3",
     "types" : "line",
     "color" : "black",
@@ -225,6 +250,7 @@
     "y2" : 80
   },
   {
+    "id" : 26,
     "name" : "M4",
     "types" : "line",
     "color" : "black",
@@ -234,6 +260,7 @@
     "y2" : 120
   },
   {
+    "id" : 27,
     "name" : "A1",
     "types" : "line",
     "color" : "black",
@@ -243,6 +270,7 @@
     "y2" : 80
   },
   {
+    "id" : 28,
     "name" : "A2",
     "types" : "line",
     "color" : "black",
@@ -252,6 +280,7 @@
     "y2" : 120
   },
   {
+    "id" : 29,
     "name" : "A3",
     "types" : "line",
     "color" : "black",
@@ -261,6 +290,7 @@
     "y2" : 100
   },
   {
+    "id" : 30,
     "name" : "N1",
     "types" : "line",
     "color" : "black",
@@ -270,6 +300,7 @@
     "y2" : 120
   },
   {
+    "id" : 31,
     "name" : "N2",
     "types" : "line",
     "color" : "black",
@@ -279,6 +310,7 @@
     "y2" : 120
   },
   {
+    "id" : 32,
     "name" : "N3",
     "types" : "line",
     "color" : "black",
@@ -288,6 +320,7 @@
     "y2" : 80
   },
   {
+    "id" : 33,
     "name" : "D1",
     "types" : "line",
     "color" : "black",
@@ -297,6 +330,7 @@
     "y2" : 120
   },
   {
+    "id" : 34,
     "name" : "D2",
     "types" : "line",
     "color" : "black",
@@ -306,6 +340,7 @@
     "y2" : 110
   },
   {
+    "id" : 35,
     "name" : "D3",
     "types" : "line",
     "color" : "black",
@@ -315,6 +350,7 @@
     "y2" : 80
   },
   {
+    "id" : 36,
     "name" : "D4",
     "types" : "line",
     "color" : "black",
@@ -324,6 +360,7 @@
     "y2" : 90
   },
   {
+    "id" : 37,
     "name" : "D5",
     "types" : "line",
     "color" : "black",
@@ -333,6 +370,7 @@
     "y2" : 120
   },
   {
+    "id" : 38,
     "name" : "D6",
     "types" : "line",
     "color" : "black",
@@ -342,6 +380,7 @@
     "y2" : 110
   },
   {
+    "id" : 39,
     "name" : "E1",
     "types" : "line",
     "color" : "black",
@@ -351,6 +390,7 @@
     "y2" : 120
   },
   {
+    "id" : 40,
     "name" : "E2",
     "types" : "line",
     "color" : "black",
@@ -360,6 +400,7 @@
     "y2" : 80
   },
   {
+    "id" : 41,
     "name" : "E3",
     "types" : "line",
     "color" : "black",
@@ -369,6 +410,7 @@
     "y2" : 100
   },
   {
+    "id" : 42,
     "name" : "E4",
     "types" : "line",
     "color" : "black",
@@ -378,6 +420,7 @@
     "y2" : 120
   },
   {
+    "id" : 43,
     "name" : "R2.1",
     "types" : "line",
     "color" : "black",
@@ -387,6 +430,7 @@
     "y2" : 120
   },
   {
+    "id" : 44,
     "name" : "R2.2",
     "types" : "line",
     "color" : "black",
@@ -396,6 +440,7 @@
     "y2" : 80
   },
   {
+    "id" : 45,
     "name" : "R2.3",
     "types" : "line",
     "color" : "black",
@@ -405,6 +450,7 @@
     "y2" : 100
   },
   {
+    "id" : 46,
     "name" : "R2.4",
     "types" : "line",
     "color" : "black",
@@ -414,6 +460,7 @@
     "y2" : 100
   },
   {
+    "id" : 47,
     "name" : "R2.5",
     "types" : "line",
     "color" : "black",
@@ -423,6 +470,7 @@
     "y2" : 120
   },
   {
+    "id" : 48,
     "name" : "I",
     "types" : "line",
     "color" : "black",
@@ -432,6 +480,7 @@
     "y2" : 120
   },
   {
+    "id" : 49,
     "name" : "N1",
     "types" : "line",
     "color" : "black",
@@ -441,6 +490,7 @@
     "y2" : 120
   },
   {
+    "id" : 50,
     "name" : "N2",
     "types" : "line",
     "color" : "black",
@@ -450,6 +500,7 @@
     "y2" : 120
   },
   {
+    "id" : 51,
     "name" : "N3",
     "types" : "line",
     "color" : "black",
@@ -459,6 +510,7 @@
     "y2" : 80
   },
   {
+    "id" : 52,
     "name" : "G1",
     "types" : "line",
     "color" : "black",
@@ -468,6 +520,7 @@
     "y2" : 120
   },
   {
+    "id" : 53,
     "name" : "G2",
     "types" : "line",
     "color" : "black",
@@ -477,6 +530,7 @@
     "y2" : 80
   },
   {
+    "id" : 54,
     "name" : "G3",
     "types" : "line",
     "color" : "black",
@@ -486,6 +540,7 @@
     "y2" : 120
   },
   {
+    "id" : 55,
     "name" : "G4",
     "types" : "line",
     "color" : "black",
@@ -495,6 +550,7 @@
     "y2" : 120
   },
   {
+    "id" : 56,
     "name" : "G5",
     "types" : "line",
     "color" : "black",

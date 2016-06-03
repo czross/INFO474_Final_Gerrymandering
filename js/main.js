@@ -46,12 +46,41 @@
             if($scope.step == 2) {
                 d3.json("data/square1.json", function(error, root) {
                     if (error) throw error;
-                    console.log(root);
                     svg.datum(root).call(chart);
                 });
             }
             if($scope.step == 3) {
                 d3.json("data/square2.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 4) {
+                d3.json("data/packing1.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 5) {
+                d3.json("data/packing2.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 6) {
+                d3.json("data/cracking.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 8) {
+                d3.json("data/minority.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 9) {
+                d3.json("data/minority2.json", function(error, root) {
                     if (error) throw error;
                     svg.datum(root).call(chart);
                 });

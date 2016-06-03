@@ -35,7 +35,7 @@
     "id" : 5,
     "name" : "square1-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 50
   },
@@ -91,7 +91,7 @@
     "id" : 11,
     "name" : "square2-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 90
   },
@@ -115,7 +115,7 @@
     "id" : 14,
     "name" : "square2-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 90
   },
@@ -134,10 +134,20 @@
     "name" : "lineHor2-2",
     "types" : "line",
     "color" : "black",
-    "x1" : 45,
-    "y1" : 125,
-    "x2" : 245,
-    "y2" : 125
+    "x1" : 125,
+    "y1" : 85,
+    "x2" : 125,
+    "y2" : 165
+  },
+  {
+    "id" : 316,
+    "name" : "VertBotLeft",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 85,
+    "y1" : 165,
+    "x2" : 85,
+    "y2" : 205
   },
   {
     "id" : 17,
@@ -161,7 +171,7 @@
     "id" : 19,
     "name" : "square3-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 130
   },
@@ -185,7 +195,7 @@
     "id" : 22,
     "name" : "square3-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 130
   },
@@ -204,10 +214,40 @@
     "name" : "lineHor3-2",
     "types" : "line",
     "color" : "black",
-    "x1" : 45,
+    "x1" : 85,
     "y1" : 165,
-    "x2" : 245,
+    "x2" : 125,
     "y2" : 165
+  },
+  {
+    "id" : "200",
+    "name" : "VertMid",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 165,
+    "y1" : 165,
+    "x2" : 165,
+    "y2" : 125
+  },
+  {
+    "id" : "201",
+    "name" : "HorMid",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 165,
+    "y1" : 125,
+    "x2" : 205,
+    "y2" : 125
+  },
+  {
+    "id" : "202",
+    "name" : "VerRight",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 205,
+    "y1" : 85,
+    "x2" : 205,
+    "y2" : 125
   },
   {
     "id" : 25,
@@ -231,7 +271,7 @@
     "id" : 27,
     "name" : "square4-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 170
   },
@@ -255,7 +295,7 @@
     "id" : 30,
     "name" : "square4-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 170
   },
@@ -275,6 +315,26 @@
     "types" : "line",
     "color" : "black",
     "x1" : 45,
+    "y1" : 205,
+    "x2" : 85,
+    "y2" : 205
+  },
+  {
+    "id" : 210,
+    "name" : "lineVerBot2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 165,
+    "y1" : 165,
+    "x2" : 165,
+    "y2" : 205
+  },
+  {
+    "id" : 210,
+    "name" : "lineHorBot2",
+    "types" : "line",
+    "color" : "black",
+    "x1" : 85,
     "y1" : 205,
     "x2" : 245,
     "y2" : 205
@@ -325,7 +385,7 @@
     "id" : 38,
     "name" : "square5-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 210
   },
@@ -363,24 +423,24 @@
     "id" : 42,
     "name" : "district-1",
     "types" : "rect",
-    "color" : "gold",
-    "x1" : 350,
+    "color" : "purple",
+    "x1" : 400,
     "y1" : 50
   },
   {
     "id" : 43,
     "name" : "district-2",
     "types" : "rect",
-    "color" : "gold",
-    "x1" : 350,
+    "color" : "purple",
+    "x1" : 400,
     "y1" : 90
   },
   {
     "id" : 44,
     "name" : "district-3",
     "types" : "rect",
-    "color" : "gold",
-    "x1" : 350,
+    "color" : "purple",
+    "x1" : 400,
     "y1" : 130
   },
   {
@@ -395,8 +455,8 @@
     "id" : 46,
     "name" : "district-5",
     "types" : "rect",
-    "color" : "gold",
-    "x1" : 350,
+    "color" : "purple",
+    "x1" : 400,
     "y1" : 210
   },
   {

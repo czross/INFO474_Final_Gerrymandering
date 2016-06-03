@@ -1,0 +1,147 @@
+[
+  {
+    "id" : 1,
+    "name" : "White-1",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 50,
+    "y1" : 50
+  },
+  {
+    "id" : 2,
+    "name" : "White-2",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 90,
+    "y1" : 50
+  },
+  {
+    "id" : 3,
+    "name" : "Black-1",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 130,
+    "y1" : 50
+  },
+  {
+    "id" : 4,
+    "name" : "White-3",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 170,
+    "y1" : 50
+  },
+  {
+    "id" : 5,
+    "name" : "Black-2",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 210,
+    "y1" : 50
+  },
+  {
+    "id" : 6,
+    "name" : "White-4",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 250,
+    "y1" : 50
+  },
+  {
+    "id" : 7,
+    "name" : "Black-3",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 50,
+    "y1" : 90
+  },
+  {
+    "id" : 8,
+    "name" : "White-5",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 90,
+    "y1" : 90
+  },
+  {
+    "id" : 9,
+    "name" : "White-6",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 130,
+    "y1" : 90
+  },
+  {
+    "id" : 10,
+    "name" : "Black-4",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 170,
+    "y1" : 90
+  },
+  {
+    "id" : 11,
+    "name" : "White-7",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 210,
+    "y1" : 90
+  },
+  {
+    "id" : 12,
+    "name" : "White-8",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 250,
+    "y1" : 90
+  },
+  {
+    "id" : 14,
+    "name" : "White-9",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 50,
+    "y1" : 130
+  },
+  {
+    "id" : 15,
+    "name" : "Black-6",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 90,
+    "y1" : 130
+  },
+  {
+    "id" : 13,
+    "name" : "Black-5",
+    "types" : "rect",
+    "color" : "black",
+    "x1" : 170,
+    "y1" : 130
+  },
+  {
+    "id" : 16,
+    "name" : "White-10",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 210,
+    "y1" : 130
+  },
+  {
+    "id" : 17,
+    "name" : "White-11",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 250,
+    "y1" : 130
+  },
+  {
+    "id" : 18,
+    "name" : "White-12",
+    "types" : "rect",
+    "color" : "white",
+    "x1" : 130,
+    "y1" : 130
+  }
+
+]
