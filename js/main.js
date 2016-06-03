@@ -67,6 +67,12 @@
                     svg.datum(root).call(chart);
                 });
             }
+            if($scope.step == 6) {
+                d3.json("data/cracking.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
         });
     });
 
