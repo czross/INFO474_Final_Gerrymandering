@@ -35,7 +35,7 @@
     "id" : 5,
     "name" : "square1-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 50
   },
@@ -91,7 +91,7 @@
     "id" : 11,
     "name" : "square2-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 90
   },
@@ -115,7 +115,7 @@
     "id" : 14,
     "name" : "square2-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 90
   },
@@ -161,7 +161,7 @@
     "id" : 19,
     "name" : "square3-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 130
   },
@@ -185,7 +185,7 @@
     "id" : 22,
     "name" : "square3-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 130
   },
@@ -231,7 +231,7 @@
     "id" : 27,
     "name" : "square4-2",
     "types" : "rect",
-    "color" : "purple",
+    "color" : "gold",
     "x1" : 90,
     "y1" : 170
   },
@@ -255,7 +255,7 @@
     "id" : 30,
     "name" : "square4-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 170
   },
@@ -325,7 +325,7 @@
     "id" : 38,
     "name" : "square5-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 210,
     "y1" : 210
   },
@@ -363,7 +363,7 @@
     "id" : 42,
     "name" : "district-1",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 350,
     "y1" : 50
   },
@@ -395,7 +395,7 @@
     "id" : 46,
     "name" : "district-5",
     "types" : "rect",
-    "color" : "gold",
+    "color" : "purple",
     "x1" : 350,
     "y1" : 210
   },
