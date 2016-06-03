@@ -43,14 +43,13 @@
                     svg.datum(root).call(chart);
                 });
             }
-            if($scope.step == 2) {
+            if($scope.step == 3) {
                 d3.json("data/square1.json", function(error, root) {
                     if (error) throw error;
-                    console.log(root);
                     svg.datum(root).call(chart);
                 });
             }
-            if($scope.step == 3) {
+            if($scope.step == 4) {
                 d3.json("data/square2.json", function(error, root) {
                     if (error) throw error;
                     svg.datum(root).call(chart);

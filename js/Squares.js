@@ -25,16 +25,19 @@ var Squares = function(divName) {
     var chart = function(selection) {
 
         selection.each(function(data) {
-            var orange, green, lines;
+            var circs, rects, lines;
 
-            console.log(data)
             var filterData= function() {
-                orange = data.filter(function(d) {
+                rects = data.filter(function(d) {
                     return d.types == "rect";
                 });
                 lines = data.filter(function(d) {
                     return d.types == "line";
                 });
+                circs = data.filter(function(d) {
+                   return d.types == "circs"
+                });
+
             };
 
             filterData();
@@ -51,7 +54,7 @@ var Squares = function(divName) {
 
 
             var rect = g.selectAll("rect")
-                .data(orange, function(d) {console.log(d.id);return d.id});
+                .data(rects, function(d) {return d.id});
 
             rect.enter().append("rect")
                 .attr("x", function(d) {d.x1})
@@ -59,6 +62,15 @@ var Squares = function(divName) {
                 .attr("height", rectSize + "px")
                 .attr("width", rectSize + "px")
                 .attr('id', function(d){return d.id})
+                .attr("fill", function(d) {d.color});
+
+            var circle = g.selectAll("circle")
+                .data(circs, function (d) {return d.id});
+
+            circle.enter().append("circle")
+                .attr("cx", function(d) {d.x1})
+                .attr("cy", function(d) {d.y1})
+                .attr("r", 10)
                 .attr("fill", function(d) {d.color});
 
             line.transition()
@@ -79,7 +91,15 @@ var Squares = function(divName) {
                 .attr('y', function(d){return d.y1})
                 .attr('height', rectSize)
                 .attr('width', rectSize)
-                .attr('fill', function(d) {console.log(d.color); return d.color});
+                .attr('fill', function(d) {return d.color});
+
+            circle.transition()
+                .duration(1500)
+                .delay(function(d, i) {return i*50})
+                .attr("cx", function(d) {d.x1})
+                .attr("cy", function(d) {d.y1})
+                .attr("r", 10)
+                .attr("fill", function(d) {d.color});
 
 
             rect.exit().remove();
