@@ -73,6 +73,18 @@
                     svg.datum(root).call(chart);
                 });
             }
+            if($scope.step == 8) {
+                d3.json("data/minority.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
+            if($scope.step == 9) {
+                d3.json("data/minority2.json", function(error, root) {
+                    if (error) throw error;
+                    svg.datum(root).call(chart);
+                });
+            }
         });
     });
 
