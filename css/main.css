@@ -6,7 +6,14 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+
 }
+
+
+
+
+        
+
 
 .counties {
     fill: none;
@@ -34,8 +41,8 @@ html, body {
     width: 50%;
     display:inline-block;
     overflow-y: auto;
-    font-size:20px;
     height: 1000px;
+
 }
 
 .scroller::-webkit-scrollbar {
@@ -43,9 +50,9 @@ html, body {
 }
 
 /* Selected section at full opacity */
-.scroller .selected {
+/*.scroller .selected {
     opacity:1;
-}
+}*/
 
 .vis {
     background: #cce5cc;
@@ -54,11 +61,15 @@ html, body {
     overflow-y: auto;
     font-size:20px;
     height: 1000px;
+
 }
 
 #story {
     font-family: "Cabin Sketch";
     padding-left: 5px;
+
+    font-size:20px;
+
 }
 
 p {
@@ -67,11 +78,23 @@ p {
 
 .pack {
     font-family: "Tulpen One";
-    font-size: 150%;
+    font-size: 175%;
 }
 
 .crack {
     font-family: "Eater";
 }
+
+footer {
+        background: #ffc119;
+        padding-bottom: 0;
+
+}
+
+p2 {
+    font-family: "Cabin Sketch";
+}
+
+
 
 
