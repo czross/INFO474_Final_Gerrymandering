@@ -9,12 +9,6 @@ html, body {
 
 }
 
-
-
-
-        
-
-
 .counties {
     fill: none;
 }
@@ -37,12 +31,12 @@ html, body {
 
 
 .scroller {
-    background: #cce5cc;
     width: 50%;
     display:inline-block;
     overflow-y: auto;
     height: 1000px;
-
+    background-image: url('../img/lines.jpg');
+    float: left;
 }
 
 .scroller::-webkit-scrollbar {
@@ -54,20 +48,36 @@ html, body {
     opacity:1;
 }*/
 
-.vis {
-    background: #cce5cc;
+#vis-container {
+    float:right;
+    height: 1000px;
+    display:inline-block;
     width: 50%;
+    background-image: url('../img/lines.jpg');
+
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    opacity: 0.9;
+}
+
+#right-box {
+    height: inherit;
+}
+
+.vis {
     display:inline-block;
     overflow-y: auto;
     font-size:20px;
-    height: 1000px;
-
+    opacity: 1.0;
 }
 
 #story {
     font-family: "Cabin Sketch";
     padding-left: 5px;
-
     font-size:20px;
 
 }
