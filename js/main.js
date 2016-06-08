@@ -8,6 +8,20 @@
          */
         $scope.sectionHeight = 600;
 
+        //Width and height
+        var w = 1000;
+        var h = 600;
+        var state = d3.select(".state")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        $scope.change = function(t) {
+            d3.json("data/washington_" + t + ".geojson", function(json) {
+                draw(json, state);
+            });
+        };
+
         /**
          * This is where we set up the initial visualization so that the scrolling done
          * by users can manipulate this. NOTE** This is purely d3 to show where d3 code
@@ -22,6 +36,29 @@
             if (error) throw error;
             svg.datum(root).call(chart);
         });
+
+        var draw = function(json, state) {
+            //Define map projection
+            var projection = d3.geo.albersUsa()
+                .translate([w + 1100, h + 800])
+                .scale([6000]);
+            //Define path generator
+            var path = d3.geo.path()
+                .projection(projection);
+            //Create SVG element
+
+            //Load in GeoJSON data
+            state.selectAll("path")
+                .data(json.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .style("fill", "steelblue");
+
+            path.exit().remove();
+            state.exit().remove();
+        };
+
 
         /**
          * This is where we can make changes to the visualization rendered by the code
