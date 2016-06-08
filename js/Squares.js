@@ -82,6 +82,16 @@ var Squares = function(divName) {
                 .attr('x', function(d) {return d.y1})
                 .text(function(d) {return d.text});
 
+            var text = g.selectAll('text')
+                .data(texts);
+
+
+            text.enter().append('text')
+                .attr('class', 'title')
+                .attr('y', function(d) {return d.x1})
+                .attr('x', function(d) {return d.y1})
+                .text(function(d) {return d.text});
+
 
 
             line.transition()
