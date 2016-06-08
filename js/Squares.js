@@ -68,7 +68,9 @@ var Squares = function(divName) {
                 .attr("width", rectSize + "px")
                 .attr('id', function(d){return d.id})
                 .attr("fill", function(d) {d.color})
-                .attr("class", "rect");
+                .attr("class", "rect")
+                .attr('stroke', 'black')
+                .attr('stroke-width', '1');
 
             var text = g.selectAll('text')
                 .data(texts);
