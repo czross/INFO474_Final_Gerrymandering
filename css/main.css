@@ -9,12 +9,6 @@ html, body {
 
 }
 
-
-
-
-        
-
-
 .counties {
     fill: none;
 }
@@ -42,13 +36,8 @@ html, body {
     overflow-y: auto;
     height: 1000px;
     background-image: url('../img/lines.jpg');
-
-
+    float: left;
 }
-
-
-
-
 
 .scroller::-webkit-scrollbar {
     display: none;
@@ -59,20 +48,31 @@ html, body {
     opacity:1;
 }*/
 
-.vis {
-    background-image: url('../img/lines.jpg');
-    width: 50%;
-    display:inline-block;
-    overflow-y: auto;
-    font-size:20px;
+#vis-container {
+    float:right;
     height: 1000px;
+    display:inline-block;
+    width: 50%;
+    background-image: url('../img/lines.jpg');
+
 }
 
 .box {
-    background-color: white;
-    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 1);
     padding-top: 1px;
     padding-bottom: 1px;
+    opacity: 0.9;
+}
+
+#right-box {
+    height: inherit;
+}
+
+.vis {
+    display:inline-block;
+    overflow-y: auto;
+    font-size:20px;
+    opacity: 1.0;
 }
 
 #story {
