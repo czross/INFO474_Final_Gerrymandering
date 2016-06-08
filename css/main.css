@@ -105,6 +105,12 @@ p2 {
     font-family: "Cabin Sketch";
 }
 
+p3 span {
+    display: block;
+    font-family: "Cabin Sketch";
+    font-size: 75%;
+}
+
 
 
 
