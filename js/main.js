@@ -10,17 +10,33 @@
 
         //Width and height
         var w = 1000;
-        var h = 600;
-        var state = d3.select(".state")
+        var h = 500;
+        var now = d3.select(".now")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
 
-        $scope.change = function(t) {
-            d3.json("data/washington_" + t + ".geojson", function(json) {
-                draw(json, state);
-            });
-        };
+        var between = d3.select(".between")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        var past = d3.select(".past")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        d3.json("data/washington_64_to_72.geojson", function(json) {
+            draw(json, past);
+        });
+
+        d3.json("data/washington_91_to_92.geojson", function(json) {
+            draw(json, between);
+        });
+
+        d3.json("data/washington_108_to_112.geojson", function(json) {
+            draw(json, now);
+        });
 
         /**
          * This is where we set up the initial visualization so that the scrolling done
@@ -40,7 +56,7 @@
         var draw = function(json, state) {
             //Define map projection
             var projection = d3.geo.albersUsa()
-                .translate([w + 1100, h + 800])
+                .translate([w + 1000, h + 900])
                 .scale([6000]);
             //Define path generator
             var path = d3.geo.path()
