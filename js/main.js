@@ -8,6 +8,36 @@
          */
         $scope.sectionHeight = 600;
 
+        //Width and height
+        var w = 1000;
+        var h = 500;
+        var now = d3.select(".now")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        var between = d3.select(".between")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        var past = d3.select(".past")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+        d3.json("data/washington_64_to_72.geojson", function(json) {
+            draw(json, past);
+        });
+
+        d3.json("data/washington_91_to_92.geojson", function(json) {
+            draw(json, between);
+        });
+
+        d3.json("data/washington_108_to_112.geojson", function(json) {
+            draw(json, now);
+        });
+
         /**
          * This is where we set up the initial visualization so that the scrolling done
          * by users can manipulate this. NOTE** This is purely d3 to show where d3 code
@@ -22,49 +52,30 @@
             if (error) throw error;
             svg.datum(root).call(chart);
         });
-        var width = 960,
-            height = 600;
 
-        var rateById = d3.map();
 
-        var quantize = d3.scale.quantize()
-            .domain([0, .15])
-            .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+        var draw = function(json, state) {
+            //Define map projection
+            var projection = d3.geo.albersUsa()
+                .translate([w + 1000, h + 900])
+                .scale([6000]);
+            //Define path generator
+            var path = d3.geo.path()
+                .projection(projection);
+            //Create SVG element
 
-        var projection = d3.geo.albersUsa()
-            .scale(1280)
-            .translate([width / 2, height / 2]);
+            //Load in GeoJSON data
+            state.selectAll("path")
+                .data(json.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .style("fill", "steelblue");
 
-        var path = d3.geo.path()
-            .projection(projection);
+            path.exit().remove();
+            state.exit().remove();
+        };
 
-        var svg = d3.select(".vis2").append("svg")
-            .attr("width", width)
-            .attr("height", height);
-
-        queue()
-            .defer(d3.json, "./data/us.json")
-            .defer(d3.tsv, "./data/unemployment.tsv", function(d) { rateById.set(d.id, +d.rate); })
-            .await(ready);
-
-        function ready(error, us) {
-            if (error) throw error;
-
-            svg.append("g")
-                .attr("class", "counties")
-                .selectAll("path")
-                .data(topojson.feature(us, us.objects.counties).features)
-                .enter().append("path")
-                .attr("class", function(d) { return quantize(rateById.get(d.id)); })
-                .attr("d", path);
-
-            svg.append("path")
-                .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-                .attr("class", "states")
-                .attr("d", path);
-        }
-
-        d3.select(self.frameElement).style("height", height + "px");
 
         /**
          * This is where we can make changes to the visualization rendered by the code
