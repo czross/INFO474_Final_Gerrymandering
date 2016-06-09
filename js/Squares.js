@@ -1,5 +1,8 @@
 /**
  * Created by Christopher on 5/22/2016.
+ * This api takes in a div id and allows a user to read in different files that can 
+ * add rectangles, lines, or text to an svg.  The ojbject passed in must be a json object 
+ * that has signifiers that denote the x1, y1, x2, y2, and any text./ 
  */
 
 var Squares = function(divName) {
@@ -15,14 +18,18 @@ var Squares = function(divName) {
         .append('svg')
         .attr("height", height)
         .attr("width", width);
-
+//appending the g and svg here makes sure to not create small multiples unless the user specifies. 
     var g = svg.append("g")
         .attr("width", (width - 40) + "px")
         .attr("height", (height - 40) + "px")
         .attr("transform", "translate(40,0)");
 
 
-
+    /**
+     * This is the draw function for the actual api and this is what is called in whatever main file 
+     * that this supports
+     *
+     */
     var chart = function(selection) {
 
         selection.each(function(data) {
@@ -37,10 +44,7 @@ var Squares = function(divName) {
                 });
                 texts = data.filter(function(d) {
                     return d.types == 'text'
-                })
-                console.log(text);
-                console.log(rects);
-                console.log(lines);
+                });
 
             };
 
@@ -126,16 +130,10 @@ var Squares = function(divName) {
             line.exit().remove();
             text.exit().remove();
 
-            /** rectGreen.transition()
-             .duration(1500)
-             .delay(function(d,i){return i*50})
-             .attr('x', function(d){return d.x1})
-             .attr('y', function(d){return d.y1})
-             .attr('height', rectSize)
-             .attr('width', rectSize); **/
+            
         });
     };
-
+//allows a user to find the generated svg
     chart.svg = function() {
         return svg;
     };

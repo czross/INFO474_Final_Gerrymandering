@@ -9,6 +9,7 @@
         $scope.sectionHeight = 600;
 
         //Width and height
+        // these create the small multiple maps of Washington State through the years
         var w = 1000;
         var h = 500;
         var now = d3.select(".now")
@@ -127,13 +128,13 @@
                     svg.datum(root).call(chart);
                 });
             }
-            if($scope.step == 8) {
+            if($scope.step == 9) {
                 d3.json("data/minority.json", function(error, root) {
                     if (error) throw error;
                     svg.datum(root).call(chart);
                 });
             }
-            if($scope.step == 9) {
+            if($scope.step == 10) {
                 d3.json("data/minority2.json", function(error, root) {
                     if (error) throw error;
                     svg.datum(root).call(chart);
